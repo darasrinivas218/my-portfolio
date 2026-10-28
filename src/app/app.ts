@@ -26,7 +26,7 @@ export class App implements OnInit {
   protected readonly pillars = [
     { n: '01', title: 'Architecture & leadership', text: 'Solution design, code review and mentoring grounded in SOLID principles and clean architecture.' },
     { n: '02', title: 'Legacy modernization', text: 'Mainframe COBOL/JCL to idiomatic C#/.NET with verified functional equivalence.' },
-    { n: '03', title: 'Cloud, data & AI', text: 'Kafka telemetry, EF Core performance work, and OpenAI / Azure Cognitive features in Angular apps.' },
+    { n: '03', title: 'Cloud, data & AI', text: 'Kafka telemetry, EF Core performance work, and Azure OpenAI, LangChain/LangGraph and RAG features in Angular apps.' },
   ];
   protected readonly showAll = signal(false);
   protected readonly visibleJobs = computed(() =>

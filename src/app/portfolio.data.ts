@@ -27,12 +27,15 @@ export const STATS = [
 
 export interface SkillGroup { name: string; icon: string; items: string[]; }
 export const SKILLS: SkillGroup[] = [
-  { name: 'Backend', icon: '⚙️', items: ['C#', '.NET 8', 'ASP.NET Core', 'Web API', 'gRPC', 'GraphQL', 'WCF', 'EF Core', 'LINQ', 'Kafka'] },
-  { name: 'Frontend', icon: '🎨', items: ['Angular', 'TypeScript', 'React', 'Blazor', 'RxJS', 'Material UI', 'PrimeNG', 'Bootstrap', 'WPF'] },
-  { name: 'Data', icon: '🗄️', items: ['SQL Server', 'PostgreSQL', 'Oracle', 'Cosmos DB', 'MongoDB', 'Databricks', 'Delta Lake', 'Spark', 'Elasticsearch'] },
-  { name: 'Cloud & DevOps', icon: '☁️', items: ['AWS', 'Azure', 'Docker', 'AKS', 'Terraform', 'Jenkins', 'Bamboo', 'GitHub Actions', 'CodePipeline'] },
-  { name: 'Quality', icon: '🧪', items: ['xUnit', 'NUnit', 'Jest', 'Jasmine/Karma', 'Cypress', 'Playwright', 'JMeter', 'SonarQube'] },
-  { name: 'AI & Observability', icon: '🤖', items: ['OpenAI', 'Azure Cognitive Services', 'GitHub Copilot', 'Splunk', 'Kibana'] },
+  { name: 'Languages', icon: '', items: ['C#', 'Python', 'TypeScript', 'JavaScript', 'T-SQL', 'PL/SQL', 'HTML5', 'CSS3', 'XML/XSLT'] },
+  { name: 'Backend & .NET', icon: '', items: ['.NET 8', 'ASP.NET Core', 'Web API', 'ASP.NET MVC', 'EF Core', 'LINQ', 'ADO.NET', 'gRPC', 'GraphQL', 'WCF', 'SOAP', 'Kafka'] },
+  { name: 'Frontend & Desktop', icon: '', items: ['Angular 8–22', 'React', 'Redux', 'Blazor', 'RxJS', 'Material UI', 'PrimeNG', 'Bootstrap', 'jQuery', 'WPF', 'Windows Forms'] },
+  { name: 'AI & Generative AI', icon: '', items: ['Azure OpenAI', 'OpenAI APIs', 'LangChain', 'LangGraph', 'LLMs', 'RAG', 'Vector databases', 'AI agents', 'Multi-agent orchestration', 'Agentic workflows', 'Prompt engineering', 'GitHub Copilot'] },
+  { name: 'Architecture & Security', icon: '', items: ['Microservices', 'API Gateway', 'Event-driven design', 'REST APIs', 'SOA', 'Clean architecture', 'SOLID', 'Design patterns', 'OAuth 2.0', 'JWT', 'Azure AD', 'RBAC'] },
+  { name: 'Data', icon: '', items: ['SQL Server', 'PostgreSQL', 'Oracle', 'Azure SQL', 'Cosmos DB', 'MongoDB', 'Databricks', 'Delta Lake', 'Spark', 'Elasticsearch', 'Kibana'] },
+  { name: 'Cloud & DevOps', icon: '', items: ['Azure', 'App Service', 'Azure Functions', 'Azure Storage', 'Azure DevOps', 'AKS', 'AWS', 'Docker', 'Terraform', 'Jenkins', 'Bamboo', 'GitHub Actions', 'CodePipeline'] },
+  { name: 'Testing & Observability', icon: '', items: ['xUnit', 'NUnit', 'Jest', 'Jasmine/Karma', 'Cypress', 'Playwright', 'JMeter', 'SonarQube', 'Splunk'] },
+  { name: 'Tools & Process', icon: '', items: ['Visual Studio', 'Git', 'GitHub', 'Bitbucket', 'TFS', 'Subversion', 'Jira', 'Confluence', 'Swagger', 'Postman', 'IIS', 'Agile/Scrum'] },
 ];
 
 export interface Job {
